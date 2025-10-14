@@ -311,6 +311,9 @@ footer {
   .card-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .hero-right {
+    display: none !important;
+  }
 }
 
 @media (max-width: 720px) {

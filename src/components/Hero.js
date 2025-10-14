@@ -9,7 +9,7 @@ export default function Hero() {
         <Row className="g-4 align-items-center">
           {/* Left Content */}
           <Col lg={8}>
-            <Card className="p-4 shadow-sm">
+            <Card className="p-4 shadow-sm ">
               <h1>
                 Hi — I'm <span className="text-primary">Kshitij</span>
               </h1>
@@ -59,7 +59,7 @@ export default function Hero() {
 
           {/* Profile Card */}
           <Col lg={4}>
-            <Card className="p-4 shadow-sm text-center">
+            <Card className="p-4 shadow-sm text-center align-items-center hero-right">
               <img
                 src={profile}
                 alt="Profile"
