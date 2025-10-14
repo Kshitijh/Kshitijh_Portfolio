@@ -2,25 +2,19 @@ import React from "react";
 
 const projects = [
   {
-    company: "Cybernetik Technologies (Python Dev.)",
-    role: "Frontend / GUI Development",
-    duration: "Dec 2024 - Present",
-    desc: "Worked on development of firmware for Battery Management System (BMS), Also built 6+ industrial live monitoring dashboards, developed backend with real-time control.",
-    skills: ["React", "Python", "Dashboard", "Backend"]
+    company: "Portfolio Website",
+    desc: "This responsive React portfolio (the one you're viewing). Built from scratch with CSS variables and a light/dark theme.",
+    skills: ["React.js", "AWS S3", "Node.js"]
   },
   {
-    company: "Freelance",
-    role: "Full-Stack Developer",
-    duration: "2024 - Present",
-    desc: "Built small business websites and integrated payment & reporting systems.",
-    skills: ["React", "Node.js", "SQL", "Payment Integration"]
+    company: "Digital shopping trolley",
+    desc: "Created an IOT based digital shopping cart/trolley to reduce the waiting time at the billing desk.",
+    skills: ["Processors", "AWS", "sensors", "MongoDB"]
   },
   {
-    company: "Vijesha IT Services LLP",
-    role: "AI Engineer",
-    duration: "2024",
-    desc: "Implemented data-frame handling models & Developed a recommendation system using collaborative filtering.",
-    skills: ["Python", "AI", "Machine Learning", "Recommendation Systems"]
+    company: "Textile Web-App",
+    desc: "Developed a web application to automate inventory management, marketing, and sales.",
+    skills: ["AWS EC2", "MongoDB", "React.js"]
   }
 ];
 
