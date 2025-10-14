@@ -2,6 +2,7 @@ import React from "react";
 import profile from "../assets/ProfilePic.png"; // optional - add your image
 import { Card, Button, Row, Col, Badge } from "react-bootstrap";
 
+
 export default function Hero() {
   return (
     <section className="py-5" id="home">
