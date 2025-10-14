@@ -93,8 +93,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 [data-theme="dark"] .nav {
-  background: linear-gradient(180deg, rgba(6, 18, 32, 0.6), transparent);
   border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.navcontainer {
+  background-color: transparent !important;
 }
 
 .nav-inner {
