@@ -18,7 +18,7 @@
 [data-theme="dark"] {
   --heading: #ffffff;
   --bg: #071128;
-  --card: #0b1a33;
+  --card: #071128;
   --text: #ffffff;
   --muted: #9fb2c9;
   --accent: #60a5fa;
@@ -96,10 +96,13 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid rgba(255, 255, 255, 0.04);
 }
 
-.navcontainer {
-  background-color: transparent !important;
+[data-theme="dark"] .shadow-sm {
+  background-color: #00153f !important;
 }
-
+.shadow-sm {
+  background-color: #ffffff !important;
+}
+ 
 .nav-inner {
   display: flex;
   justify-content: space-between;

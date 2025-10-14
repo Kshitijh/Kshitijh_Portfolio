@@ -6,7 +6,7 @@ export default function MyNavbar({ theme, onToggleTheme }) {
     <Navbar
       expand="lg"
       fixed="top"
-      className="shadow-sm navcontainer"
+      className="shadow-sm"
     >
       <Container>
         {/* Brand */}

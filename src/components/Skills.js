@@ -24,7 +24,7 @@ export default function Skills() {
         <div className="card p-4 shadow-sm">
           <div className="d-flex flex-wrap gap-2">
             {skills.map((skill, idx) => (
-              <span key={idx} className="badge">{skill}</span>
+              <span key={idx} className="badge bg-secondary text-white p-2">{skill}</span>
             ))}
           </div>
         </div>

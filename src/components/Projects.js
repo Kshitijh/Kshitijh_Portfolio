@@ -38,7 +38,7 @@ export default function Projects() {
                 {/* Skill Capsules */}
                 <div className="mt-3 d-flex flex-wrap gap-2">
                   {proj.skills.map((skill, i) => (
-                    <span key={i} className="badge bg-primary">{skill}</span>
+                    <span key={i} className="badge bg-secondary text-white p-2">{skill}</span>
                   ))}
                 </div>
               </div>
