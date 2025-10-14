@@ -16,10 +16,10 @@ export default function MyNavbar({ theme, onToggleTheme }) {
           <div
             className="d-flex justify-content-center align-items-center"
             style={{
-              width: 44,
-              height: 44,
-              borderRadius: 10,
-              background: "linear-gradient(135deg, #0d6efd, #7c3aed)",
+              width: 50,
+              height: 50,
+              borderRadius: 15,
+              background: "linear-gradient(135deg, #0d6efd, #00f7ffff)",
               color: "white",
               fontWeight: 700,
             }}
@@ -28,7 +28,7 @@ export default function MyNavbar({ theme, onToggleTheme }) {
           </div>
           <div>
             <div className="fw-bold">Kshitij Hupare</div>
-            <div className="small text-muted">Full-Stack Developer</div>
+            <div>Full-Stack Developer</div>
           </div>
         </Navbar.Brand>
 

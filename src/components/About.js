@@ -6,7 +6,7 @@ export default function About() {
       <div className="container">
         <div className="d-flex justify-content-between align-items-end mb-4">
           <h2>About</h2>
-          <div className="small text-muted">A short intro about me</div>
+          <div className="small">A short intro about me</div>
         </div>
 
         <div className="row g-4">
@@ -14,7 +14,7 @@ export default function About() {
           <div className="col-md-8">
             <div className="card p-4 shadow-sm">
               <h3>Who I am</h3>
-              <p className="text-muted">
+              <p>
                 I'm a Computer Science graduate who loves building web apps and desktop GUIs.
                 I’ve worked on Qt-based GUIs with Python, web apps with React, and various
                 backend services. I enjoy turning designs into pixel-perfect UIs and optimizing
@@ -36,17 +36,17 @@ export default function About() {
               <h3>Quick facts</h3>
 
               <div className="mt-2">
-                <div className="small text-muted">Location</div>
+                <div >Location</div>
                 <div className="fw-bold">Maharashtra, India</div>
               </div>
 
               <div className="mt-3">
-                <div className="small text-muted">Education</div>
+                <div >Education</div>
                 <div className="fw-bold">B. Tech, Computer Science & Engineering</div>
               </div>
 
               <div className="mt-3">
-                <div className="small text-muted">Contact</div>
+                <div >Contact</div>
                 <div className="fw-bold">
                   <a href="mailto:kshitijhupare07@gmail.com">kshitijhupare07@gmail.com</a>
                 </div>

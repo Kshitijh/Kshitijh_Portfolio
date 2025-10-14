@@ -1,11 +1,8 @@
 import React from "react";
 
-const skills = [
-  "React",
-  "Node.js",
-  "JavaScript",
-  "Java",
-  "IOT",
+const skills = ["React",
+  "Node.js","JavaScript",
+  "Java","IOT",
   "Cloud Technologies",
   "NoSQL",
   "SQL",
@@ -22,13 +19,13 @@ export default function Skills() {
       <div className="container">
         <div className="d-flex justify-content-between align-items-end mb-4">
           <h2>Skills</h2>
-          <div className="small text-muted">Tools & technologies I use</div>
+          <div className="small">Tools & technologies I use</div>
         </div>
 
         <div className="card p-4 shadow-sm">
           <div className="d-flex flex-wrap gap-2">
             {skills.map((skill, idx) => (
-              <span key={idx} className="badge bg-secondary">{skill}</span>
+              <span key={idx} className="badge">{skill}</span>
             ))}
           </div>
         </div>

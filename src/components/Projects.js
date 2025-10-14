@@ -29,8 +29,8 @@ export default function Projects() {
     <section className="py-5" id="projects">
       <div className="container">
         <div className="d-flex justify-content-between align-items-end mb-4">
-          <h2>Projects</h2>
-          <div className="small text-muted">Work and personal projects</div>
+          <h2> Projects</h2>
+          <div className="small"> Work and personal projects</div>
         </div>
 
         <div className="row g-4">
@@ -38,9 +38,9 @@ export default function Projects() {
             <div key={idx} className="col-md-6 col-lg-4">
               <div className="card h-100 p-3 shadow-sm">
                 <div className="fw-bold">{proj.company}</div>
-                <div className="text-muted">{proj.duration}</div>
+                <div>{proj.duration}</div>
                 <div className="mt-2">{proj.role}</div>
-                <div className="text-muted mt-1">{proj.desc}</div>
+                <div>{proj.desc}</div>
 
                 {/* Skill Capsules */}
                 <div className="mt-3 d-flex flex-wrap gap-2">

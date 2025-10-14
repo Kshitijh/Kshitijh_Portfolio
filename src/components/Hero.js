@@ -5,7 +5,7 @@ import { Card, Button, Row, Col, Badge } from "react-bootstrap";
 export default function Hero() {
   return (
     <section className="py-5" id="home">
-      <div className="container">
+      <div className="container ">
         <Row className="g-4 align-items-center">
           {/* Left Content */}
           <Col lg={8}>
@@ -13,7 +13,7 @@ export default function Hero() {
               <h1>
                 Hi — I'm <span className="text-primary">Kshitij</span>
               </h1>
-              <p className="text-muted">
+              <p>
                 Recent Computer Science graduate (2024). Passionate about building
                 full-stack applications using React, interested in developing 3-tier architecture.
               </p>
@@ -25,12 +25,12 @@ export default function Hero() {
 
               <Row className="mt-3 text-center text-md-start">
                 <Col xs={6} md={3}>
-                  <div className="small text-muted">Location</div>
-                  <div className="fw-bold">India</div>
+                  <div>Location</div>
+                  <div className="fw-bold mt-1">India</div>
                 </Col>
                 <Col xs={6} md={3}>
-                  <div className="small text-muted">Availability</div>
-                  <div className="fw-bold">Open to work</div>
+                  <div>Availability</div>
+                  <div className="fw-bold mt-1">Open to work</div>
                 </Col>
               </Row>
             </Card>
@@ -38,19 +38,19 @@ export default function Hero() {
             <Row className="mt-3 g-3">
               <Col xs={12} md={4}>
                 <Card className="p-3 shadow-sm text-center">
-                  <div className="small text-muted">Experience</div>
+                  <div>Experience</div>
                   <div className="fw-bold mt-1">Internships + Freelance</div>
                 </Card>
               </Col>
               <Col xs={12} md={4}>
                 <Card className="p-3 shadow-sm text-center">
-                  <div className="small text-muted">Top Skill</div>
+                  <div>Top Skill</div>
                   <div className="fw-bold mt-1">React • Python</div>
                 </Card>
               </Col>
               <Col xs={12} md={4}>
                 <Card className="p-3 shadow-sm text-center">
-                  <div className="small text-muted">Degree</div>
+                  <div>Degree</div>
                   <div className="fw-bold mt-1">B.Tech in CS (2024)</div>
                 </Card>
               </Col>
@@ -67,7 +67,7 @@ export default function Hero() {
                 style={{ width: 140, height: 140, objectFit: "cover" }}
               />
               <h3>Kshitij Hupare</h3>
-              <p className="text-muted">Full-Stack Developer — React, Python, PyQt</p>
+              <p> Full-Stack Developer — React, Python, PyQt</p>
               <Button variant="primary" href="#contact">Get in touch</Button>
             </Card>
           </Col>

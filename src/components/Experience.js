@@ -26,8 +26,8 @@ export default function Experience() {
     <section className="py-5" id="experience">
       <div className="container">
         <div className="d-flex justify-content-between align-items-end mb-4">
-          <h2>Experience</h2>
-          <div className="small text-muted">Work, internships and major roles</div>
+          <h2> Experience</h2>
+          <div className="small"> Work, internships and major roles</div>
         </div>
 
         <div className="row g-4">
@@ -44,7 +44,7 @@ export default function Experience() {
                   {/* Right: Role & Description */}
                   <div className="col-md-9 mt-2 mt-md-0">
                     <div className="fw-bold">{exp.role}</div>
-                    <div className="text-muted mt-1">{exp.desc}</div>
+                    <div>{exp.desc}</div>
                   </div>
                 </div>
               </div>

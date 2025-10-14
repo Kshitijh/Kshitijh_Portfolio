@@ -30,7 +30,7 @@ I am contacting you regarding: ${form.message}`;
       <div className="container">
         <div className="d-flex justify-content-between align-items-end mb-4">
           <h2>Contact Via WhatsApp</h2>
-          <div className="small text-muted">Let's build something together</div>
+          <div className="small">Let's build something together</div>
         </div>
 
         <div className="row g-4">
@@ -78,7 +78,9 @@ I am contacting you regarding: ${form.message}`;
                     Send message
                   </button>
                   {sent && (
-                    <div className="text-primary">Redirecting to WhatsApp...</div>
+                    <div className="text-primary">
+                      Redirecting to WhatsApp...
+                    </div>
                   )}
                 </div>
               </form>
@@ -89,15 +91,17 @@ I am contacting you regarding: ${form.message}`;
           <div className="col-md-5">
             <div className="card p-4 shadow-sm h-100">
               <h3>Contact Info</h3>
-              <div className="small text-muted">Email & Phone</div>
+              <div className="small">Email & Phone</div>
               <div className="fw-bold mt-1">
-                <a href="mailto:kshitijhupare07@gmail.com">kshitijhupare07@gmail.com</a>
+                <a href="mailto:kshitijhupare07@gmail.com">
+                  kshitijhupare07@gmail.com
+                </a>
                 <br />
                 <a href="tel:9922008673">+91 99220 08673</a>
               </div>
 
-              <div className="small text-muted mt-3">Social</div>
-              <div className="d-flex gap-3 mt-2 fs-4">
+              <div className="small">Social</div>
+              <div className="d-flex gap-2 mt-0 fs-1">
                 <a
                   href="https://github.com/Kshitijh"
                   target="_blank"
@@ -125,7 +129,11 @@ I am contacting you regarding: ${form.message}`;
               </div>
 
               <div className="mt-3">
-                <a className="btn btn-outline-secondary" href="/resume.pdf" download>
+                <a
+                  className="btn btn-outline-secondary"
+                  href="/resume.pdf"
+                  download
+                >
                   Download CV
                 </a>
               </div>

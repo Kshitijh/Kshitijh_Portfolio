@@ -6,7 +6,7 @@ export default function Education() {
       <div className="container">
         <div className="d-flex justify-content-between align-items-end mb-4">
           <h2>Education</h2>
-          <div className="small text-muted">Academic background</div>
+          <div className="small">Academic background</div>
         </div>
 
         <div className="row g-4">
@@ -14,9 +14,9 @@ export default function Education() {
           <div className="col-md-6 col-lg-4">
             <div className="card p-4 shadow-sm h-100">
               <h3>B.Tech — Computer Science and Engineering</h3>
-              <div className="text-muted">2020 - 2024</div>
+              <div className="small">2020 - 2024</div>
               <div className="fw-bold mt-2">CGPA: 8.68</div>
-              <p className="text-muted mt-2">
+              <p className="mt-2">
                 Completed core computer science subjects and worked on various projects in IOT, web development, Cloud technologies and desktop GUI designs.
               </p>
             </div>
@@ -26,7 +26,7 @@ export default function Education() {
           <div className="col-md-6 col-lg-4">
             <div className="card p-4 shadow-sm h-100">
               <h3>Certifications</h3>
-              <div className="text-muted">Relevant online Certificates</div>
+              <div className="small">Relevant online Certificates</div>
               <ul className="mt-2">
                 <li>.NET Full Stack Developer Certification</li>
                 <li>Artificial Intelligence Primer Certification</li>
@@ -41,7 +41,7 @@ export default function Education() {
           <div className="col-md-6 col-lg-4">
             <div className="card p-4 shadow-sm h-100">
               <h3>Courses</h3>
-              <div className="text-muted">Relevant online Certificates</div>
+              <div className="small">Relevant Courses</div>
               <ul className="mt-2">
                 <li>Python Data Structures and Algorithms</li>
                 <li>Introduction to Robotic Process Automation</li>
