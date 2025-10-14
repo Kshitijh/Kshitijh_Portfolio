@@ -30,7 +30,6 @@ export default function Projects() {
       <div className="container">
         <div className="d-flex justify-content-between align-items-end mb-4">
           <h2> Projects</h2>
-          <div className="small"> Work and personal projects</div>
         </div>
 
         <div className="row g-4">

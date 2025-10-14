@@ -19,7 +19,6 @@ export default function Skills() {
       <div className="container">
         <div className="d-flex justify-content-between align-items-end mb-4">
           <h2>Skills</h2>
-          <div className="small">Tools & technologies I use</div>
         </div>
 
         <div className="card p-4 shadow-sm">

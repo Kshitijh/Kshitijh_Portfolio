@@ -27,7 +27,6 @@ export default function Experience() {
       <div className="container">
         <div className="d-flex justify-content-between align-items-end mb-4">
           <h2> Experience</h2>
-          <div className="small"> Work, internships and major roles</div>
         </div>
 
         <div className="row g-4">

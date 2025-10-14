@@ -6,7 +6,6 @@ export default function Education() {
       <div className="container">
         <div className="d-flex justify-content-between align-items-end mb-4">
           <h2>Education</h2>
-          <div className="small">Academic background</div>
         </div>
 
         <div className="row g-4">

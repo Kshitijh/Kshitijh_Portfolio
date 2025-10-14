@@ -6,7 +6,6 @@ export default function About() {
       <div className="container">
         <div className="d-flex justify-content-between align-items-end mb-4">
           <h2>About</h2>
-          <div className="small">A short intro about me</div>
         </div>
 
         <div className="row g-4">
