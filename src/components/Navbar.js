@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav, Container, Button } from "react-bootstrap";
 
-export default function MyNavbar({ theme, onToggleTheme }) {
+export default function MyNavbar() {
   return (
     <Navbar
       expand="lg"
@@ -41,13 +41,6 @@ export default function MyNavbar({ theme, onToggleTheme }) {
             <Nav.Link href="#skills">Skills</Nav.Link>
             <Nav.Link href="#education">Education</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
-
-            <Button
-              variant={theme === "light" ? "outline-dark" : "outline-light"}
-              onClick={onToggleTheme}
-            >
-              {theme === "light" ? "Dark" : "Light"}
-            </Button>
 
             <Button variant="primary" href="#contact">
               Hire Me

@@ -10,22 +10,15 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 export default function App() {
-  const [theme, setTheme] = useState(() => {
-    const t = localStorage.getItem("theme");
-    return t ? t : "light";
-  });
+  const theme = "dark";
 
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
-    localStorage.setItem("theme", theme);
-  }, [theme]);
+  }, []);
 
   return (
     <>
-      <Navbar
-        theme={theme}
-        onToggleTheme={() => setTheme(theme === "light" ? "dark" : "light")}
-      />
+      <Navbar />
 
       {/* Add top padding to avoid overlap with fixed navbar */}
       <main style={{ paddingTop: "80px" }}>
