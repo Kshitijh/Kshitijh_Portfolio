@@ -1,16 +1,31 @@
 import React from "react";
+import { 
+  FaReact, 
+  FaNodeJs, 
+  FaJsSquare, 
+  FaJava, 
+  FaCloud, 
+  FaDatabase, 
+  FaPython, 
+  FaGitAlt 
+} from "react-icons/fa";
+import { SiMysql, SiMicrosoftsqlserver as SiMssql } from "react-icons/si";
+import { IoHardwareChip } from "react-icons/io5";
 
-const skills = ["React",
-  "Node.js","JavaScript",
-  "Java","IOT",
-  "Cloud Technologies",
-  "NoSQL",
-  "SQL",
-  "MySQL",
-  "SSMS",
-  "Python",
-  "Python Libraries",
-  "Git",
+const skills = [
+  { name: "React", icon: <FaReact /> },
+  { name: "Node.js", icon: <FaNodeJs /> },
+  { name: "JavaScript", icon: <FaJsSquare /> },
+  { name: "Java", icon: <FaJava /> },
+  { name: "IOT", icon: <IoHardwareChip /> },
+  { name: "Cloud Technologies", icon: <FaCloud /> },
+  { name: "NoSQL", icon: <FaDatabase /> },
+  { name: "SQL", icon: <FaDatabase /> },
+  { name: "MySQL", icon: <SiMysql /> },
+  { name: "SSMS", icon: <FaDatabase /> },
+  { name: "Python", icon: <FaPython /> },
+  { name: "Python Libraries", icon: <FaPython /> },
+  { name: "Git", icon: <FaGitAlt /> },
 ];
 
 export default function Skills() {
@@ -24,7 +39,10 @@ export default function Skills() {
         <div className="card p-4 shadow-sm">
           <div className="d-flex flex-wrap gap-2">
             {skills.map((skill, idx) => (
-              <span key={idx} className="badge bg-secondary text-white p-2">{skill}</span>
+              <span key={idx} className="badge bg-secondary text-white p-2 d-flex align-items-center gap-2" style={{ fontSize: '1rem' }}>
+                <span style={{ fontSize: '1.5rem' }}>{skill.icon}</span>
+                {skill.name}
+              </span>
             ))}
           </div>
         </div>
