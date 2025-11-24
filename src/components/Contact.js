@@ -131,7 +131,7 @@ I am contacting you regarding: ${form.message}`;
               <div className="mt-3">
                 <a
                   className="btn btn-outline-secondary"
-                  href="/resume.pdf"
+                  href="/Kshitij_Hupare_Resume.pdf"
                   download
                 >
                   Download CV
