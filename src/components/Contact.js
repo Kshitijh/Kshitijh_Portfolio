@@ -13,7 +13,7 @@ export default function Contact() {
     e.preventDefault();
 
     const text = `Hi Kshitij, I am ${form.name}. 
-This is my contact email: ${form.email}. 
+This is my contact email: ${form.email} 
 I am contacting you regarding: ${form.message}`;
 
     const encodedMsg = encodeURIComponent(text);
