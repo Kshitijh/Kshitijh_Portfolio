@@ -167,7 +167,7 @@ h6 {
 .hero-card,
 .profile {
   padding: 18px;
-  border-radius: var(--radius);
+  border-radius: 24px !important;
   background: var(--card) !important;
   color: var(--text) !important;
   box-shadow: var(--shadow) !important;

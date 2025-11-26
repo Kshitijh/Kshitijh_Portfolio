@@ -11,7 +11,7 @@ export default function Education() {
         <div className="row g-4">
           {/* Degree */}
           <div className="col-md-6 col-lg-4">
-            <div className="card p-4 shadow-sm h-100" data-aos="flip-left">
+            <div className="card p-4 shadow-sm h-100" data-aos="flip-up">
               <h3>B.Tech — Computer Science and Engineering</h3>
               <div className="small">2020 - 2024</div>
               <div className="fw-bold mt-2">CGPA: 8.68</div>
@@ -23,7 +23,7 @@ export default function Education() {
 
           {/* Certifications */}
           <div className="col-md-6 col-lg-4">
-            <div className="card p-4 shadow-sm h-100" data-aos="flip-left" data-aos-delay="100">
+            <div className="card p-4 shadow-sm h-100" data-aos="flip-up" data-aos-delay="100">
               <h3>Certifications</h3>
               <div className="small">Relevant online Certificates</div>
               <ul className="mt-2">
@@ -38,7 +38,7 @@ export default function Education() {
 
           {/* Courses */}
           <div className="col-md-6 col-lg-4">
-            <div className="card p-4 shadow-sm h-100" data-aos="flip-left" data-aos-delay="200">
+            <div className="card p-4 shadow-sm h-100" data-aos="flip-up" data-aos-delay="200">
               <h3>Courses</h3>
               <div className="small">Relevant Courses</div>
               <ul className="mt-2">
