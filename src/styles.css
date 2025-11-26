@@ -364,3 +364,14 @@ aside a:hover svg {
   transform: scale(1.2);
   color: var(--accent);
 }
+
+/* ==============================
+   Form Controls
+============================== */
+.form-control {
+  color: #000000 !important;
+}
+
+.form-control::placeholder {
+  color: #666666 !important;
+}
