@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope, FaPhone } from "react-icons/fa";
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -91,16 +91,27 @@ I am contacting you regarding: ${form.message}`;
           <div className="col-md-5">
             <div className="card p-4 shadow-sm h-100" data-aos="flip-up">
               <h3>Contact Info</h3>
-              <div className="small">Email & Phone</div>
-              <div className="fw-bold mt-1">
-                <a href="mailto:kshitijhupare07@gmail.com">
-                  kshitijhupare07@gmail.com
+              <div className="small mb-3">Email & Phone</div>
+              <div className="d-flex flex-column gap-2">
+                <a 
+                  href="mailto:kshitijhupare07@gmail.com"
+                  className="d-flex align-items-center gap-2 text-decoration-none"
+                  style={{ fontSize: '1rem' }}
+                >
+                  <FaEnvelope style={{ fontSize: '1.2rem' }} />
+                  <span className="fw-bold">kshitijhupare07@gmail.com</span>
                 </a>
-                <br />
-                <a href="tel:9922008673">+91 99220 08673</a>
+                <a 
+                  href="tel:+919922008673"
+                  className="d-flex align-items-center gap-2 text-decoration-none"
+                  style={{ fontSize: '1rem' }}
+                >
+                  <FaPhone style={{ fontSize: '1.2rem' }} />
+                  <span className="fw-bold">+91 99220 08673</span>
+                </a>
               </div>
 
-              <div className="small">Social</div>
+              <div className="small mt-4">Social</div>
               <div className="d-flex gap-2 mt-0 fs-1">
                 <a
                   href="https://github.com/Kshitijh"
