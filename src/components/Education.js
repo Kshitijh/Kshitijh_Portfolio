@@ -11,19 +11,19 @@ export default function Education() {
         <div className="row g-4">
           {/* Degree */}
           <div className="col-md-6 col-lg-4">
-            <div className="card p-4 shadow-sm h-100">
+            <div className="card p-4 shadow-sm h-100" data-aos="flip-left">
               <h3>B.Tech — Computer Science and Engineering</h3>
               <div className="small">2020 - 2024</div>
               <div className="fw-bold mt-2">CGPA: 8.68</div>
               <p className="mt-2">
-                Completed core computer science subjects and worked on various projects in IOT, web development, Cloud technologies and desktop GUI designs.
+                Completed core computer science subjects from Walchand Institute of technology and worked on various projects in IOT, web development, Cloud technologies and desktop GUI designs.
               </p>
             </div>
           </div>
 
           {/* Certifications */}
           <div className="col-md-6 col-lg-4">
-            <div className="card p-4 shadow-sm h-100">
+            <div className="card p-4 shadow-sm h-100" data-aos="flip-left" data-aos-delay="100">
               <h3>Certifications</h3>
               <div className="small">Relevant online Certificates</div>
               <ul className="mt-2">
@@ -38,7 +38,7 @@ export default function Education() {
 
           {/* Courses */}
           <div className="col-md-6 col-lg-4">
-            <div className="card p-4 shadow-sm h-100">
+            <div className="card p-4 shadow-sm h-100" data-aos="flip-left" data-aos-delay="200">
               <h3>Courses</h3>
               <div className="small">Relevant Courses</div>
               <ul className="mt-2">

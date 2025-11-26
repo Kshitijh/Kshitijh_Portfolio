@@ -36,7 +36,7 @@ export default function Skills() {
           <h2>Skills</h2>
         </div>
 
-        <div className="card p-4 shadow-sm">
+        <div className="card p-4 shadow-sm" data-aos="flip-up">
           <div className="d-flex flex-wrap gap-2">
             {skills.map((skill, idx) => (
               <span key={idx} className="badge bg-secondary text-white p-2 d-flex align-items-center gap-2" style={{ fontSize: '1rem' }}>

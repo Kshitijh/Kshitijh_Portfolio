@@ -10,7 +10,7 @@ export default function Hero() {
         <Row className="g-4 align-items-center">
           {/* Left Content */}
           <Col lg={8}>
-            <Card className="p-4 shadow-sm ">
+            <Card className="p-4 shadow-sm " data-aos="flip-left">
               <h1>
                 Hi — I'm <span className="text-primary">Kshitij</span>
               </h1>
@@ -38,19 +38,19 @@ export default function Hero() {
 
             <Row className="mt-3 g-3">
               <Col xs={12} md={4}>
-                <Card className="p-3 shadow-sm text-center">
+                <Card className="p-3 shadow-sm text-center" data-aos="flip-left" data-aos-delay="100">
                   <div>Experience</div>
                   <div className="fw-bold mt-1">Internships + Freelance</div>
                 </Card>
               </Col>
               <Col xs={12} md={4}>
-                <Card className="p-3 shadow-sm text-center">
+                <Card className="p-3 shadow-sm text-center" data-aos="flip-left" data-aos-delay="200">
                   <div>Top Skill</div>
                   <div className="fw-bold mt-1">React • Python</div>
                 </Card>
               </Col>
               <Col xs={12} md={4}>
-                <Card className="p-3 shadow-sm text-center">
+                <Card className="p-3 shadow-sm text-center" data-aos="flip-left" data-aos-delay="300">
                   <div>Degree</div>
                   <div className="fw-bold mt-1">B.Tech in CS (2024)</div>
                 </Card>
@@ -60,7 +60,7 @@ export default function Hero() {
 
           {/* Profile Card */}
           <Col lg={4}>
-            <Card className="p-4 shadow-sm text-center align-items-center hero-right">
+            <Card className="p-4 shadow-sm text-center align-items-center hero-right" data-aos="flip-right">
               <img
                 src={profile}
                 alt="Profile"

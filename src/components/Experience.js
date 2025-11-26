@@ -32,7 +32,7 @@ export default function Experience() {
         <div className="row g-4">
           {experiences.map((exp, idx) => (
             <div key={idx} className="col-md-12">
-              <div className="card p-4 shadow-sm">
+              <div className="card p-4 shadow-sm" data-aos="flip-up" data-aos-delay={idx * 100}>
                 <div className="row">
                   {/* Left: Company & Duration */}
                   <div className="col-md-3 text-muted">

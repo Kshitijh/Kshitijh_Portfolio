@@ -11,7 +11,7 @@ export default function About() {
         <div className="row g-4">
           {/* Who I am / What I do */}
           <div className="col-md-8">
-            <div className="card p-4 shadow-sm">
+            <div className="card p-4 shadow-sm" data-aos="flip-left">
               <h3>Who I am</h3>
               <p>
                 I'm a Computer Science graduate who loves building web apps and desktop GUIs.
@@ -31,7 +31,7 @@ export default function About() {
 
           {/* Quick facts */}
           <div className="col-md-4">
-            <div className="card p-4 shadow-sm">
+            <div className="card p-4 shadow-sm" data-aos="flip-right">
               <h3>Quick facts</h3>
 
               <div className="mt-2">

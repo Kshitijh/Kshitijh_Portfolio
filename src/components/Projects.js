@@ -29,7 +29,7 @@ export default function Projects() {
         <div className="row g-4">
           {projects.map((proj, idx) => (
             <div key={idx} className="col-md-6 col-lg-4">
-              <div className="card h-100 p-3 shadow-sm">
+              <div className="card h-100 p-3 shadow-sm" data-aos="flip-left" data-aos-delay={idx * 100}>
                 <div className="fw-bold">{proj.company}</div>
                 <div>{proj.duration}</div>
                 <div className="mt-2">{proj.role}</div>

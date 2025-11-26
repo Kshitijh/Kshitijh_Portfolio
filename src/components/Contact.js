@@ -36,7 +36,7 @@ I am contacting you regarding: ${form.message}`;
         <div className="row g-4">
           {/* Contact Form */}
           <div className="col-md-7">
-            <div className="card p-4 shadow-sm">
+            <div className="card p-4 shadow-sm" data-aos="flip-left">
               <form onSubmit={handleSubmit}>
                 <div className="mb-3">
                   <label className="form-label">Name</label>
@@ -89,7 +89,7 @@ I am contacting you regarding: ${form.message}`;
 
           {/* Contact Info */}
           <div className="col-md-5">
-            <div className="card p-4 shadow-sm h-100">
+            <div className="card p-4 shadow-sm h-100" data-aos="flip-right">
               <h3>Contact Info</h3>
               <div className="small">Email & Phone</div>
               <div className="fw-bold mt-1">
