@@ -1,6 +1,11 @@
 import React from "react";
 
 const projects = [
+    {
+    company: "BMS Activation & Battery Testing Validation (EOL)",
+    desc: "Developed Battery Management System activation, Firmware development, and EOL testing validation for electric vehicle batteries.",
+    skills: ["Kevsar-CAN module", "Logic & Algorithm", "Python-CANlib","PyModbus"]
+  },
   {
     company: "Portfolio Website",
     desc: "This responsive React portfolio (the one you're viewing). Built from scratch with CSS variables and a light/dark theme.",
