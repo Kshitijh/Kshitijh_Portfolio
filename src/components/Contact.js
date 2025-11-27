@@ -29,7 +29,7 @@ I am contacting you regarding: ${form.message}`;
     <section className="py-5" id="contact">
       <div className="container">
         <div className="d-flex justify-content-between align-items-end mb-4">
-          <h2>Contact Via WhatsApp</h2>
+          <h2>WhatsApp Me</h2>
           <div className="small">Let's build something together</div>
         </div>
 
