@@ -7,19 +7,20 @@ const projects = [
     skills: ["Kevsar-CAN module", "Logic & Algorithm", "Python-CANlib","PyModbus"]
   },
   {
-    company: "Portfolio Website",
-    desc: "This responsive React portfolio (the one you're viewing). Built from scratch with CSS variables and a light/dark theme.",
-    skills: ["React.js", "AWS S3", "Node.js"]
-  },
-  {
     company: "Digital shopping trolley",
     desc: "Created an IOT based digital shopping cart/trolley to reduce the waiting time at the billing desk.",
     skills: ["Processors", "AWS", "sensors", "MongoDB"]
   },
   {
+    company: "Portfolio Website",
+    desc: "This responsive React portfolio (the one you're viewing). Built from scratch with CSS variables and a light/dark theme.",
+    skills: ["React.js", "Node.js"]
+  },
+  
+  {
     company: "Textile Web-App",
     desc: "Developed a web application to automate inventory management, marketing, and sales.",
-    skills: ["AWS EC2", "MongoDB", "React.js"]
+    skills: ["AWS EC2", "Django","MongoDB", "JavaScript"]
   }
 ];
 
