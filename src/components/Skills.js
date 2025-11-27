@@ -1,6 +1,7 @@
 import React from "react";
 import { 
   FaAws,
+  FaDocker,
   FaReact, 
   FaNodeJs, 
   FaJsSquare, 
@@ -8,13 +9,16 @@ import {
   FaCloud, 
   FaDatabase, 
   FaPython, 
-  FaGitAlt 
+  FaHtml5,
+  FaCss3,
+  FaGitAlt  
 } from "react-icons/fa";
 import { SiMysql, SiMicrosoftsqlserver as SiMssql } from "react-icons/si";
 import { IoHardwareChip } from "react-icons/io5";
 
 const skills = [
   { name: "AWS", icon: <FaAws /> },
+  { name: "DevOps", icon: <FaDocker /> },
   { name: "React", icon: <FaReact /> },
   { name: "Node.js", icon: <FaNodeJs /> },
   { name: "JavaScript", icon: <FaJsSquare /> },
@@ -26,6 +30,8 @@ const skills = [
   { name: "MySQL", icon: <SiMysql /> },
   { name: "SSMS", icon: <FaDatabase /> },
   { name: "Python", icon: <FaPython /> },
+  { name: "HTML5", icon: <FaHtml5 /> },
+  { name: "CSS3", icon: <FaCss3 /> },
   { name: "Python Libraries", icon: <FaPython /> },
   { name: "Git", icon: <FaGitAlt /> },
 ];
