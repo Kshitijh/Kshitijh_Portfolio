@@ -1,5 +1,6 @@
 import React from "react";
 import { 
+  FaAws,
   FaReact, 
   FaNodeJs, 
   FaJsSquare, 
@@ -13,6 +14,7 @@ import { SiMysql, SiMicrosoftsqlserver as SiMssql } from "react-icons/si";
 import { IoHardwareChip } from "react-icons/io5";
 
 const skills = [
+  { name: "AWS", icon: <FaAws /> },
   { name: "React", icon: <FaReact /> },
   { name: "Node.js", icon: <FaNodeJs /> },
   { name: "JavaScript", icon: <FaJsSquare /> },
