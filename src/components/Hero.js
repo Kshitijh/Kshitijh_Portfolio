@@ -15,8 +15,8 @@ export default function Hero() {
                 Hi — I'm <span className="text-primary">Kshitij</span>
               </h1>
               <p>
-                Recent Computer Science graduate (2024). Passionate about building
-                full-stack applications using React, interested in developing 3-tier architecture.
+                Computer Science graduate. Passionate about building
+                full-stack applications, interested in developing 3-tier architecture, And Scalable Cloud Solutions.
               </p>
 
               <div className="d-flex flex-wrap gap-2 mb-3">
@@ -27,7 +27,7 @@ export default function Hero() {
               <Row className="mt-3 text-center text-md-start">
                 <Col xs={6} md={3}>
                   <div>Location</div>
-                  <div className="fw-bold mt-1">India</div>
+                  <div className="fw-bold mt-1">Pune, Maharashtra.</div>
                 </Col>
                 <Col xs={6} md={3}>
                   <div>Availability</div>
