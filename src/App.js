@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react"; // Removed double import and added useEffect
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Snowfall from "react-snowfall"; // Keep this import
 
 export default function App() {
   const theme = "dark";
@@ -25,10 +26,21 @@ export default function App() {
 
   return (
     <>
+      {/* 1. Add Snowfall here. Fixed position ensures it stays in the background */}
+      <Snowfall
+        style={{
+          position: 'fixed',
+          width: '100vw',
+          height: '100vh',
+          zIndex: 1, // Keeps it behind your text/buttons if needed
+        }}
+        snowflakeCount={150}
+      />
+
       <Navbar />
 
       {/* Add top padding to avoid overlap with fixed navbar */}
-      <main style={{ paddingTop: "15vh" }}>
+      <main style={{ paddingTop: "15vh", position: "relative", zIndex: 2 }}>
         <Hero />
         <About />
         <Experience />
