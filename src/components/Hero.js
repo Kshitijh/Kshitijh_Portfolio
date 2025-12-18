@@ -68,7 +68,7 @@ export default function Hero() {
                 style={{ width: 140, height: 140, objectFit: "cover" }}
               />
               <h3>Kshitij Hupare</h3>
-              <p> Full-Stack Developer — React, Python, PyQt</p>
+              <p> Full-Stack Developer — React, Python, Cloud Solutions.</p>
               <Button variant="primary" href="#contact">Get in touch</Button>
             </Card>
           </Col>
