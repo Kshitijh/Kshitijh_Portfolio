@@ -5,7 +5,7 @@ const experiences = [
     company: "Cybernetik Technologies (Python Dev.)",
     role: "Frontend / GUI Development",
     duration: "Dec 2024 - Present",
-    desc: "Worked on development of firmware for Battery Management System (BMS), Also built 6+ industrial live monitoring dashboards, developed backend with real-time control."
+    desc: "Engineered scalable internal web applications, including a custom Task Management System, utilizing Python (Flask/FastAPI) for RESTful APIs and React for the frontend interface."
   },
   {
     company: "Freelance",

@@ -19,7 +19,7 @@ const projects = [
   
   {
     company: "Textile Web-App",
-    desc: "Developed a web application to automate inventory management, marketing, and sales.",
+    desc: "Architected a full-stack web application using Django and JavaScript to automate core business processes, including inventory management, marketing, and sales workflows.",
     skills: ["AWS EC2", "Django","MongoDB", "JavaScript"]
   }
 ];
