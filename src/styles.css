@@ -375,3 +375,30 @@ aside a:hover svg {
 .form-control::placeholder {
   color: #666666 !important;
 }
+
+/* ==============================
+   Certifications Link Hover
+   Light-blue hover + accessible focus
+============================== */
+.certifications-list {
+  padding-left: 1rem;
+}
+
+.cert-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.18s ease, transform 0.15s ease;
+  display: inline-block;
+}
+
+/* Light blue on hover/focus */
+.cert-link:hover,
+.cert-link:focus {
+  transform: translateX(10px);
+}
+
+.cert-link:focus {
+  outline: 3px solid rgba(96,165,250,0.18);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
