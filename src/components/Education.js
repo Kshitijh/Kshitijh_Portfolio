@@ -27,11 +27,11 @@ export default function Education() {
               <h3>Certifications</h3>
               <div className="small">Relevant online Certificates</div>
               <ul className="mt-2">
-                <li>.NET Full Stack Developer Certification</li>
-                <li>Artificial Intelligence Primer Certification</li>
-                <li>DevOps Foundation Certification</li>
-                <li>Python Programmer Certification</li>
-                <li>Java Foundation Certification</li>
+                <li><a href="https://drive.google.com/file/d/12Mi7cppjJu9lUQgDcf-mGWn89_cFdadU/view?usp=sharing" target="_blank" >.NET Full Stack Developer Certification</a></li>
+                <li><a href="https://drive.google.com/file/d/1LYlgVU0nfE9d8WACnrcLgUtOHCiF8_RE/view?usp=sharing" target="_blank" >Artificial Intelligence Primer Certification</a></li>
+                <li><a href="https://drive.google.com/file/d/1EY1n-5GVo7Wi_kvjZ35wYS02vCXuNxlU/view?usp=sharing" target="_blank" >DevOps Foundation Certification</a></li>
+                <li><a href="https://drive.google.com/file/d/1LXzJ9J_B-ca29KjxH_wr4lbvDaDp3NRA/view?usp=sharing" target="_blank" >Python Programmer Certification</a></li>
+                <li><a href="https://drive.google.com/file/d/1nUJFxZbD-LPXQunZpQHw5pG60zLRELZQ/view?usp=sharing" target="_blank" >Java Foundation Certification</a></li>
               </ul>
             </div>
           </div>
